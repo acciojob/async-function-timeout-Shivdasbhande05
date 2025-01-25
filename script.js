@@ -14,7 +14,7 @@ async function submit () {
     let promise = new Promise((resolve,reject) => {
         setTimeout(() => {
             resolve(textInput);
-        },delay);
+        },timeDelay);
     });
 
     let result = await promise;
